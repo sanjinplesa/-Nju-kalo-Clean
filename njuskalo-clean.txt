@@ -1,0 +1,13 @@
+[Adblock Plus 2.0]
+! Title: Njuškalo Clean
+! Description: Uklanja Didomi CMP cookie bannere, pop-up obavijesti o privatnosti i vraća scroll na njuskalo.hr
+! Version: 1.0.0
+! Expires: 1 days
+! Homepage: https://github.com/sanjinplesa/njuskalo_block
+||sdk.privacy-center.org^$domain=njuskalo.hr
+njuskalo.hr###didomi-host
+njuskalo.hr##.didomi-popup-backdrop
+njuskalo.hr##.PrivacyPolicyModal
+njuskalo.hr##[class*="PrivacyPolicy"]
+njuskalo.hr##.Modal-backdrop
+njuskalo.hr##html, body:style(overflow: auto !important; position: static !important;)
